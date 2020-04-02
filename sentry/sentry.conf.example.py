@@ -6,9 +6,9 @@ from sentry.conf.server import *  # NOQA
 DATABASES = {
     "default": {
         "ENGINE": "sentry.db.postgres",
-        "NAME": "postgres",
-        "USER": "postgres",
-        "PASSWORD": "",
+        "NAME": "PG_DB",
+        "USER": "PG_USER",
+        "PASSWORD": "PG_PASS",
         "HOST": "postgres",
         "PORT": "",
     }
